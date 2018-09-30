@@ -6,12 +6,12 @@
 //  assignment via actual parameters and
 //  explicit assignment inside the function.
 // 
-#include(<stdio.h>
+#include <stdio.h>
 
   // Function prototypes.
 void printDistance( double );
 
-int(main((void()
+int main( void )
 {
   double feet = 5280.0;
   printDistance( feet );
