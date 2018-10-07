@@ -30,6 +30,7 @@ int main( void )
   printf( "Postfix: %d\n"   , aValue++ );   // Postfix incrementation.
   printf( "  Final: %d\n\n" , aValue );
 
+    // A more predictable result: increment in isolation.
   ++aValue;
   printf( "++aValue (alone) == %d\n" , aValue );
   aValue++;
