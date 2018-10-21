@@ -6,6 +6,9 @@
   // 1. counter-controlled looping with for()
   // 2. condition-controlled looping with while()
   // 3. condition-controlled looping with do...while()
+  // Also
+  // 4. 2 forms of brute-force repitition
+  // 5. single-line equation to perform same operation
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -285,9 +288,9 @@ int sumNviaFor( int n )
 {
   int sum = 0;
 
-  for( int i = 0 ; i < n ; i++ )
+  for( int i = 0 ; i < n ; i++ ) // i: 0..9 (it's a C thing)
   {
-    sum += i+1;  // One-off: convert 0..9 to 1..10.
+    sum += i+1;                  // Off-by-one: shift 0..9 to 1..10.
   }
 
   return sum;
@@ -298,7 +301,7 @@ int sumNviaWhile( int n )
 {
   int sum = 0;
 
-  while( n )
+  while( n )  // n: n down to 0.
   {
     sum += n;
     n--;
@@ -315,7 +318,7 @@ int sumNviaDoWhile( int n )
   do {
     sum += n;
     n--;
-  } while ( n );
+  } while ( n );  // n: n down to 0.
 
   return sum;
 }
