@@ -1,4 +1,4 @@
-  // leapyeari1.c
+  // leapyear1.c
   // Chapter 6
   // <book title>
   //
