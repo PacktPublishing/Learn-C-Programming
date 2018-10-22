@@ -24,7 +24,6 @@ int main( void )
   printf( "The sum of 1..%d = %d (via while() loop)\n"      , n , sumNviaWhile( n ) );
   printf( "The sum of 1..%d = %d (via for() loop)\n"        , n , sumNviaFor( n ) );
   printf( "The sum of 1..%d = %d (via do...while() loop)\n" , n , sumNviaDoWhile( n ) );
-  printf( "The sum of 1..%d = %d (via <gasp> goto loop)\n"  , n , sumNviaGoto( n ) );
 
   return 0;
 }
