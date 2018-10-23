@@ -31,8 +31,11 @@ int main( void )
   printf( "  Final: %d\n\n" , aValue );
 
     // A more predictable result: increment in isolation.
+  aValue = 5;
   ++aValue;
   printf( "++aValue (alone) == %d\n" , aValue );
+
+  aValue = 5;
   aValue++;
   printf( "aValue++ (alone) == %d\n" , aValue );
   
