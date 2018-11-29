@@ -1,10 +1,12 @@
 
-// shapes.c
+// shapes2.c
 // Chapter 8
 // <book title>
 //
 // Demonstrate defining and using enumerated types with 
 // the switch statement.
+//
+// Added code to handle all shape types.
 // 
 
 
