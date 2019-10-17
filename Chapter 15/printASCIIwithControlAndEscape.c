@@ -56,7 +56,7 @@ int main( void )
     printf( "|  %c %3d %#x |" ,
               c3 , c3 , c3 );
     if( c4 != 127 ) {
-      printf( "|  %c %3d %#x |\n" ,
+      printf( "|  %c %3d %#x \n" ,
               c4 , c4 , c4  );
      } else {
         printf( "|%s %3d %#x |\n" ,
