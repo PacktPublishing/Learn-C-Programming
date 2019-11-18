@@ -3,36 +3,36 @@
   // <book title>
   //
   // Program to demonstrate implicit type conversions:
-  // truncation and rounding to/from in from/to float.
+  // truncation and rounding to/from long int and from/to double.
   //
   
 #include <stdio.h>
 
-void floatFunc( float f );
-void intFunc(   int   i );
+void doubleFunc(  double   dbl );
+void longIntFunc( long int li );
 
 int main( void )
 {
-  float floatValue = 57.5;
-  int   intValue   = 13;
+  float       floatValue = 58.73;
+  short int   intValue   = 13;
   
-  intFunc(   intValue   );
-  intFunc(   floatValue );  // possible truncation
+  longIntFunc(   intValue   );
+  longIntFunc(   floatValue );  // possible truncation
 
-  floatFunc( floatValue );
-  floatFunc( intValue   ); 
+  doubleFunc( floatValue );
+  doubleFunc( intValue   ); 
 
   return 0;
 }
 
-void floatFunc( float f )
+void doubleFunc( double dbl )
 {
-  printf( "floatFunc %.2f\n" , f );
+  printf( "doubleFunc %.2f\n" , dbl );
 }
 
-void intFunc( int i )
+void longIntFunc( long int li )
 {
-  printf( "intFunc   %d\n" , i );
+  printf( "longIntFunc   %ld\n" , li );
 }
 
   //  eof
