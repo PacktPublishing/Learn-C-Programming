@@ -151,14 +151,13 @@ void printHand3( struct Hand h )
   {
     switch( i )
     {
-      case 1: printCard( c1 ); break;
-      case 2: printCard( c2 ); break;
-      case 3: printCard( c3 ); break;
-      case 4: printCard( c4 ); break;
-      case 5: printCard( c5 ); break;
-      default:  return; break;
+      case 1: printCard( h.c1 ); break;
+      case 2: printCard( h.c2 ); break;
+      case 3: printCard( h.c3 ); break;
+      case 4: printCard( h.c4 ); break;
+      case 5: printCard( h.c5 ); break;
+      default:           return; break;
     }
-    ;
   }
 }
 
