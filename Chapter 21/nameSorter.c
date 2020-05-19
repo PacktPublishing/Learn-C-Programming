@@ -27,7 +27,7 @@ int main( void )  {
   int    numNames = 0; 
 
   while( printf( "Name: %d: ", numNames+1 ),
-         gets( newName ),
+         fgets( newName , stringMax , stdin ),
          strlen( newName ) > 0 ) 
     addName( nameList , newName , &numNames ); 
 
@@ -67,7 +67,7 @@ void printNames( string *names , int numEntries )
 { 
   printf("\nNumber of Entries: %d\n\n" , numEntries ); 
   for( int i = 0 ; i < numEntries ; i++ ) 
-    puts( names[i] );
+    fputs( names[i] , stdout );
 } 
 
   // eof
