@@ -21,6 +21,11 @@ typedef char string [ stringMax ];
 void addName(    string* names , string newOne , int* listSize ); 
 void printNames( string* names , int listSize ); 
 
+void removeNewline( string s )  {
+   int len = strlen( s );
+   s[ len-1 ] = '\0';
+}
+
 int main( void )  {  
   string newName; 
   string nameList[ listMax ]; 
@@ -28,6 +33,7 @@ int main( void )  {
 
   while( printf( "Name: %d: ", numNames+1 ),
          fgets( newName , stringMax , stdin ),
+         removeNewline( newName ) ,
          strlen( newName ) > 0 ) 
     addName( nameList , newName , &numNames ); 
 
@@ -66,8 +72,10 @@ void addName( string* names , string newName , int* pNumEntries )  {
 void printNames( string *names , int numEntries )
 { 
   printf("\nNumber of Entries: %d\n\n" , numEntries ); 
-  for( int i = 0 ; i < numEntries ; i++ ) 
+  for( int i = 0 ; i < numEntries ; i++ )  {
     fputs( names[i] , stdout );
+    fputc( '\n' , stdout );
+  }
 } 
 
   // eof
