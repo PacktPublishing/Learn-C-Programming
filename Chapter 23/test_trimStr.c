@@ -2,7 +2,15 @@
 // Chapter 23
 // Learn C Programming - Fundamentals of C
 //
-// This program exercises the trimStr() function.
+// This program tests the trimStr() and trimStrInPlace()
+// functions.
+// 
+//   trimStr() returns a pointer to the beginning of the trimmed string,
+//             modifying the original string.
+//
+//   trimStrInPlace() (1) copies the trimmed string back to the original 
+//             string using same pointer and (2) returns length of the 
+//             trimmed string.
 //
 // Compile with: 
 //
@@ -12,41 +20,20 @@
 #include <ctype.h>
 #include <string.h>
 
-char* trimStr( char* pString );
+char* trimStr(        char* pString );
+int   trimStrInPlace( char* pString );
+
+void testTrim( int testNum , char* pString );
 
 int main( void )  {
 
-  char string[80] = {0};
-
-  strcpy(  string , "With charming ease, the quick brown fox jumps over the lazy dog.\n" );
-  fprintf( stderr , "1. Test of \"normal\" string\n" );
-  fprintf( stderr , "   before: \"%s\"\n"   , string );
-  fprintf( stderr , "    after: \"%s\"\n\n" , trimStr( string ) );
-
-  strcpy(  string , "Box of frogs \t \n" );
-  fprintf( stderr , "2. Test of trailing whitespace\n" );
-  fprintf( stderr , "   before: \"%s\"\n"   , string );
-  fprintf( stderr , "    after: \"%s\"\n\n" , trimStr( string ) );
-
-  strcpy(  string , " \t  Bag of hammers" );
-  fprintf( stderr , "3. Test of leading whitespace\n" );
-  fprintf( stderr , "   before: \"%s\"\n"   , string );
-  fprintf( stderr , "    after: \"%s\"\n\n" , trimStr( string ) );
-
-  strcpy(  string , "\t\t  Sack of ferrets\t\t   " );
-  fprintf( stderr , "4. Test of leading & trailing whitespace\n" );
-  fprintf( stderr , "   before: \"%s\"\n"   , string );
-  fprintf( stderr , "    after: \"%s\"\n\n" , trimStr( string ) );
-
-  strcpy(  string , "   \b\t   " );
-  fprintf( stderr , "5. Test of whitespace only\n" );
-  fprintf( stderr , "   before: \"%s\"\n"   , string);
-  fprintf( stderr , "    after: \"%s\"\n\n" , trimStr( string ) );
-
-  strcpy(  string , "" );
-  fprintf( stderr , "6. Test of empty string\n" );
-  fprintf( stderr , "   before: \"%s\"\n"   , string );
-  fprintf( stderr , "    after: \"%s\"\n\n" , trimStr( string ) );
+  testTrim( 1 , "Hello, World!\n" );
+  testTrim( 2 , "Box of frogs \t \n" );
+  testTrim( 3 , " \t  Bag of hammers" );
+  testTrim( 4 , "\t\t  Sack of ferrets\t\t   " );
+  testTrim( 5 , "   \t\n\v\t\r   " );
+  testTrim( 6 , "" );
+  testTrim( 7 , "Goodbye, World!" );
 }
 
   // trimStr - Trims beginning and end of a string.
@@ -60,9 +47,8 @@ int main( void )  {
   //    
 char* trimStr( char* pString )
 {
-  int first = 0;
-  int last  = 0;
-  int len   = 0;
+  size_t first , last , len ;
+  first = last = len = 0;
 
     // Left Trim
     // Find 1st non-whitespace char; pStr will point to that.
@@ -77,8 +63,70 @@ char* trimStr( char* pString )
     last = len-1; // off-by-1 adjustment.
     while( isspace( pString[ last ] ) )
       last--;
-    pStr[ last+1 ] = 0;  // Terminate trimmed string.
+    pString[ last+1 ] = 0;  // Terminate trimmed string.
   }
   return pString;
 }
 
+
+// trimStrInPlace - Trims beginning and end of a string.
+//                  Creates a working copy of string, trims that, 
+//                  and copies the trimmed string back to original.
+//
+//                  Because a trimmed string will always be the same 
+//                  or fewer characters than the original, the only 
+//                  side effect of this function is the modifiction of
+//                  the original string in place. 
+//
+// Parameter:
+//   pString - pointer of string to be trimmed/modified.
+// Returns:
+//   The length of the string after trimming.
+//    
+int trimStrInPlace( char* pString )
+{
+  size_t first , last , lenIn , lenOut ;
+  first = last = lenIn = lenOut = 0;
+  
+  lenIn = strlen( pString );
+  char tmpString[ lenIn+1 ];   // Create working copy.
+  strcpy( tmpStr , pString );  // 
+  char* pTmp = tmpStr;         // pTmp may change in Left Trim segment.
+  
+    // Left Trim
+    // Find 1st non-whitespace char; pStr will point to that.
+  while( isspace( pTmp[ first ] ) )
+    first++;
+  pTmp += first;
+
+  lenOut = strlen( pTmp );     // Get new length after Left Trim.
+  if( lenOut )  {              // Check for empty string. e.g. "   " trimmed to nothing.
+      // Right Trim
+      // Find 1st non-whitespace char & set NUL character there.
+    last = lenOut-1;           // off-by-1 adjustment.
+    while( isspace( pTmp[ last ] ) )
+      last--;
+    pTmp[ last+1 ] = '\0';  // Terminate trimmed string.
+  }
+  lenOut = strlen( pTmp );     // Length of trimmed string.
+  if( lenIn != lenOut )        // Did we change anything?
+    strcpy( pString , pTmp );  // Copy trimmed string back to input string.
+  return lenOut;
+}
+
+
+void testTrim( int testNum , char* pString )
+{
+  size_t len;
+  char testString[ strlen( pString ) + 1];
+  char* pTest;
+  
+  strcpy( testString , pString );
+  fprintf( stderr , "%1d. original: \"%s\" [len:%d]\n"   , testNum, testString , (int)strlen(pString) );
+  pTest = trimStr( testString );
+  fprintf( stderr , "    trimStr: \"%s\" [len:%d]\n" , pTest ,  (int)strlen( pTest ));
+
+  strcpy( testString , pString );
+  len = trimStrInPlace( testString );
+  fprintf( stderr , "   trimStr2: \"%s\" [len:%d]\n\n" , testString , (int)len ) ;
+}
