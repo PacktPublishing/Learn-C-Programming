@@ -109,7 +109,7 @@ int getName( FILE* inFileDesc , char* pStr )  {
 
   fgets( pStr , stringMax , inFileDesc );
   
-  len = trimStr( pStr );  // Here's where *ppStr could change.
+  len = trimStr( pStr ); 
 
   if( len ) numNames++;
   return len; 
