@@ -57,6 +57,7 @@ void printSizes( void )
   printf( "double               %lu\n" , sizeof( double )             );
   printf( "long double          %lu\n" , sizeof( long double )        );
   printf( "\n" );
+  printf( "bool                 %lu\n" , sizeof( bool )               );
   printf( "_Bool                %lu\n" , sizeof( _Bool )              );
   printf( "\n" );
 }
