@@ -32,7 +32,7 @@ const int stringMax = 80;
 void  usage(   char * cmd );
 int   getName( FILE* inFileDesc , char** ppStr );
 void  putName( char* pStr ,       FILE*  outFileDesc );
-char* trimStr( char* pStr );
+int   trimStr( char* pStr );
 
 
 int main(int argc, char *argv[]) {
@@ -75,13 +75,12 @@ int main(int argc, char *argv[]) {
   }
   
   char     nameBuffer[ stringMax ];
-  char*    pName = nameBuffer;
   NameList nameList = {0};
   
-  while( getName( inputFile , &pName ) )  {
-    AddName( &nameList , pName );
-    pName = nameBuffer;            // Reset pName to beginning of buffer 
-  }                                // (it could have changed).
+  while( getName( inputFile , nameBuffer ) )  {
+    AddName( &nameList , nameBuffer );
+  }
+  
   PrintNames( outputFile , &nameList );
   DeleteNames( &nameList );
   
@@ -111,20 +110,19 @@ void usage( char* cmd )
   //  returns:
   //    length of nameStr. 0, or empty string, means end of input.
   //
-int getName( FILE* inFileDesc , char** ppStr )  {
+int getName( FILE* inFileDesc , char* pStr )  {
   static int numNames = 0; 
          int len;
 
-  memset( *ppStr , 0 , stringMax );
+  memset( pStr , 0 , stringMax );
 
   if( stdin == inFileDesc )
     fprintf( stdout , "Name %d: ", numNames+1 );
 
-  fgets( *ppStr , stringMax , inFileDesc );
+  fgets( pStr , stringMax , inFileDesc );
   
-  *ppStr = trimStr( *ppStr );  // Here's where *ppStr could change.
+  len = trimStr( pStr );
 
-  len = strlen( *ppStr );
   if( len ) numNames++;
   return len; 
 }
@@ -138,34 +136,50 @@ void putName( char* pStr , FILE* outFileDesc )  {
 }
 
 
-  // trimStr - trims beginning and end of a string
-  // 
-  // Parameter:
-  //    pStr pointer to string to be trimmed.
-  // Returns:
-  //   A pointer to the beginning of the trimmed string.
-  //    
-char* trimStr( char* pStr )  {
-  int first , last , len ;
-  first = last = len = 0;
-
+// trimStr - Trims beginning and end of a string.
+//           Creates a working copy of string, trims that, 
+//           and copies the trimmed string back to original.
+//
+//           Because a trimmed string will always be the same 
+//           or fewer characters than the original, the only 
+//           side effect of this function is the modifiction of
+//           the original string in place. 
+//
+// Parameter:
+//   pString - pointer of string to be trimmed/modified.
+// Returns:
+//   The length of the string after trimming.
+//    
+int trimStr( char* pString )
+{
+  size_t first , last , lenIn , lenOut ;
+  first = last = lenIn = lenOut = 0;
+  
+  lenIn = strlen( pString );
+  char tmpStr[ lenIn+1 ];      // Create working copy.
+  strcpy( tmpStr , pString );  // 
+  char* pTmp = tmpStr;         // pTmp may change in Left Trim segment.
+  
     // Left Trim
     // Find 1st non-whitespace char; pStr will point to that.
-  len = strlen( pStr );
-  while( isspace( pStr[ first ] ) )
+  while( isspace( pTmp[ first ] ) )
     first++;
-  pStr += first;
+  pTmp += first;
 
-  len = strlen( pStr ); // Get new length after Left Trim.
-  if( len )  {             // Check for empty string. e.g. "   " trimmed to nothing.
+  lenOut = strlen( pTmp );     // Get new length after Left Trim.
+  if( lenOut )  {              // Check for empty string.
+                               //  e.g. "   " trimmed to nothing.
       // Right Trim
-      // Find 1st non-whitespace char; pStr will point to that.
-    last = len-1; // off-by-1 adjustment.
-    while( isspace( pStr[ last ] ) )
+      // Find 1st non-whitespace char & set NUL character there.
+    last = lenOut-1;           // off-by-1 adjustment.
+    while( isspace( pTmp[ last ] ) )
       last--;
-    pStr[ last+1 ] = 0;   // Terminate trimmed string.
+    pTmp[ last+1 ] = '\0';  // Terminate trimmed string.
   }
-  return pStr;
+  lenOut = strlen( pTmp );     // Length of trimmed string.
+  if( lenIn != lenOut )        // Did we change anything?
+    strcpy( pString , pTmp );  // Yes, copy trimmed string back.
+  return lenOut;
 }
 
   // eof
