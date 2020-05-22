@@ -88,8 +88,8 @@ int trimStrInPlace( char* pString )
   size_t first , last , lenIn , lenOut ;
   first = last = lenIn = lenOut = 0;
   
-  lenIn = strlen( pString );
-  char tmpString[ lenIn+1 ];   // Create working copy.
+  lenIn = strlen( pString );   //
+  char tmpStr[ lenIn+1 ];      // Create working copy.
   strcpy( tmpStr , pString );  // 
   char* pTmp = tmpStr;         // pTmp may change in Left Trim segment.
   
