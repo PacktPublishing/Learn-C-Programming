@@ -66,7 +66,6 @@ char* trimStr( char* pString )
 
     // Left Trim
     // Find 1st non-whitespace char; pStr will point to that.
-  len = strlen( pString );
   while( isspace( pString[ first ] ) )
     first++;
   pString += first;
