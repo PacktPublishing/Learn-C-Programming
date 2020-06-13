@@ -10,7 +10,7 @@
 //
 //   trimStrInPlace() (1) copies the trimmed string back to the original 
 //             string using same pointer and (2) returns length of the 
-//             trimmed string.
+//             trimmed string. THIS IS PREFERRED FUNCTION TO USE.
 //
 // Compile with: 
 //
