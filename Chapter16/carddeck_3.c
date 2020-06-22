@@ -38,7 +38,7 @@ enum {
                       // change depending upon the card game.
   kNumHands    = 4    // For now, for hands per "table". This will change
                       // depending on the game we want to implement.
-}
+};
 
 const bool kWildCard    = true;
 const bool kNotWildCard = false;
