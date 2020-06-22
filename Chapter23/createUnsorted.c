@@ -22,7 +22,7 @@
 const int stringMax = 80;
 
 void  usage(   char* cmd );
-int   getName( FILE* inFileDesc , char** ppStr );
+int   getName( FILE* inFileDesc , char* ppStr );
 void  putName( char* pStr ,       FILE*  outFileDesc );
 int   trimStr( char* pStr );
 
