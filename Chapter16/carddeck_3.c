@@ -22,12 +22,8 @@
   // of literals; when you need to change these, they are applied
   // everywhere.
   //
-/*
- * correction: in text these were declared as
- *   const int <name>
- * but on some compilers this will cause compilation to fail when
- * these values are used in array declarations.
- */
+  // These must be enums because we'll use them in array declarations.
+  //
 enum {
   kCardsInDeck = 52,  // For now, 52 cards in a deck. This will change
                       // depending upon the card game and the # of wild
