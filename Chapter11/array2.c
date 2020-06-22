@@ -11,6 +11,7 @@
 
 int main( void )
 {
+  int i, j, k;
   i = j = k = 0;
   int   anArray[10]  = {0}; // Initialize the whole thing to 0.
   int x, y , z;
