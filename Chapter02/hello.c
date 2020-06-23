@@ -1,10 +1,12 @@
-//
 // hello.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Simple "Hello, world!" program.
 //
+// compile with:
+//
+//  cc hello.c
 
 #include <stdio.h>
 
