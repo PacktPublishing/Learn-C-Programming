@@ -1,10 +1,14 @@
 // card4.c
 // Chapter 10
-// <book title>
+// Learn C Programming
 //
 // Demonstrate the use of typedef for 
 // enums and structs.
 // 
+// Compile with:
+//
+//    cc card4.c -o card4 -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
