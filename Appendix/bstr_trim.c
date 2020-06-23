@@ -1,6 +1,6 @@
 // bstr_trim.c
 // Appendix
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Compare trimStr we created in Chapter 23 to 
 // trim function available in bstrlib.
