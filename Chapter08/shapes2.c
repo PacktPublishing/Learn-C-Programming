@@ -1,13 +1,17 @@
 
 // shapes2.c
 // Chapter 8
-// <book title>
+// Learn C Programming
 //
 // Demonstrate defining and using enumerated types with 
 // the switch statement.
 //
 // Added code to handle all shape types.
 // 
+// Compile with:
+//
+//    cc shapes2.c -o shapes2 -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
