@@ -1,10 +1,15 @@
   // casting.c
   // Chapter 5
-  // <book title>
+  // Learn C Programming
   // 
   // Program to demonstrate casting
   // for predictable results.
-  
+  //
+  // Compile with:
+  //
+  //    cc casting.c -o casting -Wall -Werror -std=c11
+  //
+
 #include <stdio.h>
 
 int main( void )
