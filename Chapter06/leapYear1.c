@@ -1,10 +1,15 @@
   // leapyear1.c
   // Chapter 6
-  // <book title>
+  // Learn C Programming
   //
   // Our first pass at a leap year program.
   // In this version, we use "fall through" logic
   // using return to end the evaluation.
+  //
+  // Compile with:
+  //
+  //    cc leapyear1.c -o leapyear1 -Wall -Werror -std=c11
+  //
 
 #include <stdio.h>
 #include <stdbool.h>
