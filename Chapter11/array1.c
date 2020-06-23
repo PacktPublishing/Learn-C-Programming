@@ -1,10 +1,14 @@
 // array1.c
 // Chapter 11
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to declare and initialize
-// arrays..
+// arrays.
 // 
+// Compile with:
+//
+//    cc array1.c -o array1 -Wall -Werror -std=c11
+//
 
 #include <stdio.h>
 
@@ -33,3 +37,5 @@ int main( void )
   printf( "  sizeof(lengthArray) = %2d bytes\n"   , arraySize  );
   printf( "   lengthArray[] has %d elements\n"  , elementNum );  
 } 
+
+  //  eof
