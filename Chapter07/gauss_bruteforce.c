@@ -1,6 +1,6 @@
-  // gause_bruteforce.c
+  // gauss_bruteforce.c
   // Chapter 7
-  // <book title>
+  // Learn C Programming
   //
   // Demonstrate looping:
   // 1. A rather ugly brute-force method.
@@ -10,7 +10,10 @@
   // As you can see, we go from the ridiculous to the 
   // sublime.
   //
-
+  // Compile with:
+  //
+  //    cc gauss_bruteforce.c -o gauss_bruteforce -Wall -Werror -std=c11
+  //
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -18,7 +21,6 @@
 int sum100bruteForce(  void );
 int sum100bruteForce2( void );
 int sumNviaGauss(      int N );
-
 
 int main( void )
 {
