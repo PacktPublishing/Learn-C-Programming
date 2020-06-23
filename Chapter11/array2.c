@@ -1,9 +1,13 @@
 // array2.c
 // Chapter 11
-// <book title>
+// Learn C Programming
 //
 // Demonstrate arroy bounds issues.
 // 
+// Compile with:
+//
+//    cc array2.c -o array2 -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
@@ -19,3 +23,5 @@ int main( void )  {
 //  anArray[ 11 ] = 7; // Compiler error!
   anArray[ x]  = 0;  // No compiler error, but runtime error!
 } 
+
+  //  eof
