@@ -1,8 +1,8 @@
 // pointers2.c
 // Chapter 13
-// <book title>
+// Learn C Programming
 //
-// This program builds on program pointers1.c
+// This program builds upon program pointers1.c
 //
 // Demonstrates how to use pointers in functions (parameters
 // and in function body). Also shows what "side effects" are.
@@ -17,7 +17,9 @@
 //    (this changes them outside of the function) 
 // 4) call the new functions with pointer variables.
 //
-// compile with: cc pointers2.c -o pointers2 -Wall -Werror -std=c11
+// Compile with:
+//
+//     cc pointers2.c -o pointers2 -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -67,4 +69,6 @@ int main( void )
   pDimension = &length;
   showVariable( pIdentifier , pDimension );
 }
+
+  //  eof
 
