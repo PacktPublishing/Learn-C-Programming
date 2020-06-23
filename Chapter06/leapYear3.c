@@ -1,9 +1,14 @@
   // leapYear3.c
   // Chapter 6
-  // <book title>
+  // Learn C Programming
   //
   // Our third `pass at a leap year program.
   // In this version, we use nested if statements.
+  //
+  // Compile with:
+  //
+  //    cc leapYear.c -o leapYear3 -Wall -Werror -std=c11
+  //
 
 
 #include <stdio.h>
