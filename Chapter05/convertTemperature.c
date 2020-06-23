@@ -1,4 +1,4 @@
-  // convertTemp1.c
+  // convertTemperature.c
   // Chapter 5
   // Learn C Programming
   // 
@@ -10,7 +10,7 @@
   //
   // Compile with:
   //
-  //    cc convertTemp1.c -o convertTemp1 -Wall -Werror -std=c11
+  //    cc convertTemperature.c -o convertTemperature -Wall -Werror -std=c11
   //
 
 
