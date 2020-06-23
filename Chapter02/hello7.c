@@ -1,12 +1,16 @@
-//
 // hello7.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Using function prototypes to call our functions in any
 // order (before the compiler processes the function body).
 // Sometimes this is called "top-down" function implementation.
 //
+// Compile with:
+//
+//    cc hello7.c -Wall -Werror -std=c11
+//
+
 
 #include <stdio.h>
 
