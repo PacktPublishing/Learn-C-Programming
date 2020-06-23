@@ -1,10 +1,13 @@
-// 
 // printingEscapeSequences.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how escape sequences appear both
 // in the source code and on the console.
+//
+// Compile with:
+//
+//    cc printingEscapeSequences.c -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
