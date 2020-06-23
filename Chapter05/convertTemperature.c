@@ -1,12 +1,18 @@
   // convertTemp1.c
   // Chapter 5
-  // <book title>
+  // Learn C Programming
   // 
   // Program to convert temperature values
   // to and from Celsius and Fahrenheit.
   //
   // Note how we test our functions's correct
   // calculations.
+  //
+  // Compile with:
+  //
+  //    cc convertTemp1.c -o convertTemp1 -Wall -Werror -std=c11
+  //
+
 
 #include <stdio.h>
 
