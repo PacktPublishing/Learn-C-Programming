@@ -1,10 +1,15 @@
   // temp.c
   // Chapter 6
-  // <book title>
+  // Learn C Programming
   //
   // Use multiple or chained if else statements to
   // convert from a range of values into a specific
   // message or unit.
+  //
+  // Compile with:
+  //
+  //    cc temp.c -o temp -Wall -Werror -std=c11
+  //
 
 
 #include <stdio.h>
