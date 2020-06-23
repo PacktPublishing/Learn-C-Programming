@@ -1,6 +1,6 @@
 // pointers4.c
 // Chapter 13
-// <book title>
+// Learn C Programming
 //
 // This program builds on program pointers2.c
 // and demonstrates double indirection in a function
@@ -11,7 +11,9 @@
 //    (double indirection) so the address of pDimension
 //    can be properly accessed in the function.
 //
-// compile with: cc pointers4.c -o pointers4 -Wall -Werror -std=c11
+// Compile with: 
+//
+//     cc pointers4.c -o pointers4 -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -62,3 +64,4 @@ int main( void )
   showVariable( pIdentifier , pDimension );
 }
 
+  //  eof
