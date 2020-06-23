@@ -1,10 +1,14 @@
-//
 // hello5.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Cutting back our functions to just 1 that takes 2 string parameters.
 //
+// Compile with:
+//
+//    cc hello5.c -Wall -Werror -std=c11
+//
+
 
 #include <stdio.h>
 
