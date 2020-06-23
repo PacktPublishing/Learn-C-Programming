@@ -1,12 +1,16 @@
   // leapyear2.c
   // Chapter 6
-  // <book title>
+  // Learn C Programming
   //
   // Our second pass at a leap year program.
   // In this version, we use "if/else if/else" logic.
   // Note: in if/else logic, only one of each condition is 
   //       evaluated. Once the condition is met, execution
   //       resumes at the end of the complex statement.
+  // Compile with:
+  //
+  //    cc leapyear2.c -o leapyear2 -Wall -Werror -std=c11
+  //
 
 
 #include <stdio.h>
