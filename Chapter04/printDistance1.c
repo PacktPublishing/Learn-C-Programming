@@ -1,11 +1,16 @@
 //  printDistance1.c
 //  Chapter 4: Using Variables and Assignment
-//  <book title>
+//  Learn C Programming
 // 
 //  A function that demonstrates the use of 
 //  assignment via actual parameters and
 //  explicit assignment inside the function.
 // 
+// Compile with:
+//
+//    cc printDistance1.c -Wall -Werror -std=c11
+//
+
 #include <stdio.h>
 
   // Function prototypes.
