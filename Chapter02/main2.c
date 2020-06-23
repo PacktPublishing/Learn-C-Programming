@@ -1,10 +1,13 @@
-//
 //  main2.c
 //  Chapter 2
-//  <book title>
+//  Learn C Programming
 //
 //  Adding a simple function. 
 //  The program still does nothing.
+//
+// Compile with:
+//
+//    cc main2.c -Wall -Werror -std=c11
 //
 
 void printComma()
