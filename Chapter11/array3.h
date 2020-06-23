@@ -1,8 +1,9 @@
 // array3.h
+// Chapter 11
+// Learn C Programming
 //
-// header file for array3.c
+// Header file for array3.c
 //
-
 
   // function prototypes
   
