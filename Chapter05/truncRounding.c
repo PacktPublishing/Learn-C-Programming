@@ -1,10 +1,15 @@
-  // program truncRounding.
+  // truncRounding.c
   // Chapter 5
-  // <book title>
+  // Learn C Programming
   //
   // Program to demonstrate implicit type conversions:
   // truncation and rounding to/from long int and from/to double.
   //
+  // Compile with:
+  //
+  //    cc truncRounding.c -o truncRounding -Wall -Werror -std=c11
+  //
+
   
 #include <stdio.h>
 
