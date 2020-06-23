@@ -5,7 +5,7 @@
 //
 // Compile with:
 //
-//    cc comments.c -o comments -Wall -Werror -std=c11
+//    cc comments.c 
 //
 
 /* (1) A single-line C-style comment. */
