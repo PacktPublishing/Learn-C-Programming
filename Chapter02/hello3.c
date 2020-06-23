@@ -1,11 +1,16 @@
-//
 // hello3.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Using two functions, one function that takes no parameters,
 // and one function that takes a string parameter.
 //
+//
+// Compile with:
+//
+//    cc hello3.c -Wall -Werror -std=c11
+//
+
 
 #include <stdio.h>
 
