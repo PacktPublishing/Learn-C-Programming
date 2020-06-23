@@ -1,11 +1,16 @@
   // gauss_loops.c
   // Chapter 7
-  // <book title>
+  // Learn C Programming
   //
   // Demonstrate looping:
   // 1. Counter-controlled looping with while().
   // 2. Counter-controlled looping with for().
   // 3. Counter-controlled looping with do...while().
+  //
+  // Compile with:
+  //
+  //    cc gauss_loops.c -o gauss_loops -Wall -Werror -std=c11
+  //
 
 
 #include <stdio.h>
