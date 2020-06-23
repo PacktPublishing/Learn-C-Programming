@@ -1,4 +1,13 @@
 
+// comments.c
+// Chapter 01
+// Learn C Programming
+//
+// Compile with:
+//
+//    cc comments.c -o comments -Wall -Werror -std=c11
+//
+
 /* (1) A single-line C-style comment. */
 
 /* (2) A multi-line
