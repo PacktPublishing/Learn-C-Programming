@@ -4,7 +4,9 @@
 //
 // Demonstrate using arrays in functions and 
 // as parameters to functions..
-// 
+//
+// build with:
+//      cc array3.c -o array3 -lm -Wall -Werror -std=c11
 
 #include <stdio.h>
 #include <math.h>
