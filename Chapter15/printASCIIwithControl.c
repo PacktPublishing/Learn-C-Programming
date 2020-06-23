@@ -1,6 +1,6 @@
 // printASCIIwithControl.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) builds upon printASCII_version3.c
@@ -8,7 +8,9 @@
 //    a) uses a lookup table to print control character mnemonics.
 //    b) simplifies printf statements fron a single one to multiple statements.
 //
-// compile with: cc printASCIIwithControl.c -o printASCIIwithControl -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc printASCIIwithControl.c -o printASCIIwithControl -Wall -Werror -std=c11
 //
 
 
@@ -56,5 +58,5 @@ int main( void )
   printf("%c%c%c", c1 , c1 , c1);  
 }  // main
 
-  /* eof */
+  //  eof
   
