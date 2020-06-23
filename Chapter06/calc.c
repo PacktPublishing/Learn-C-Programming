@@ -1,9 +1,14 @@
   // calc.c
   // Chapter 6
-  // <book title>
+  // Learn C Programming
   //
   // Build a simple calculator using a function with
   // a switch statement.
+  //
+  // Compile with:
+  //
+  //    cc calc.c -o calc -Wall -Werror -std=c11
+  //
 
 
 #include <stdio.h>
