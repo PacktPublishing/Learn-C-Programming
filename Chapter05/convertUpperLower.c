@@ -1,10 +1,15 @@
 // convertUpperLower.c
 // Chapter 5
-// <book title>
+// Learn C Programming
 // 
 // Program to convert a lower case letter to upper case
 // and an upper case letter to lower case (operations on
 // characters).
+//
+// Compile with:
+//
+//    cc convertUpperLower.c -o convertUpperLower -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
@@ -22,3 +27,5 @@ int main( void )
   printf( "Upper case '%c' can be changed to lower case '%c'\n" ,
            upperChar , aLower );
 }
+
+  //  eof
