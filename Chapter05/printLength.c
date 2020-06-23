@@ -1,6 +1,6 @@
 // printLength.c
 // Chapter 5
-// <book title>
+// Learn C Programming
 // 
 // Program to print a length in given meters as well as 
 // in feed (converted from meters). Consideration must be 
@@ -8,6 +8,11 @@
 // be exactly 1.0 feet -- they'll be more like 1.0000000987 feet,
 // or 1.0 for any practical purpose.
 // We consider 1.0 feet within 4 significant digits.
+//
+// Compile with:
+//
+//    cc printLength.c -o printLength -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
