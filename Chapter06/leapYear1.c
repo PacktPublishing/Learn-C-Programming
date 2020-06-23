@@ -1,4 +1,4 @@
-  // leapyear1.c
+  // leapYear1.c
   // Chapter 6
   // Learn C Programming
   //
@@ -8,7 +8,7 @@
   //
   // Compile with:
   //
-  //    cc leapyear1.c -o leapyear1 -Wall -Werror -std=c11
+  //    cc leapYear1.c -o leapYear1 -Wall -Werror -std=c11
   //
 
 #include <stdio.h>
