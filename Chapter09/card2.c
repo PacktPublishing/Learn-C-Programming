@@ -1,10 +1,14 @@
 // card2.c
 // Chapter 9
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to access components of structures
 // and perform operations on structures with functions.
 // 
+// Compile with:
+//
+//    cc card2.c -o card2 -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
