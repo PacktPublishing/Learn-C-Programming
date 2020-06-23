@@ -1,6 +1,6 @@
 // arrays_pointers.c
 // Chapter 14
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) an array name is interchangeable with a pointer to the same address
@@ -10,7 +10,9 @@
 //    b) using pointer plus offset (pointer doesn't change); and
 //    c) using incremented pointer (pointer changes).
 //
-// compile with: cc arrays_pointers.c -o arrays_pointers -Wall -Werror -std=c11
+// Compile with: 
+//
+//     cc arrays_pointers.c -o arrays_pointers -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -61,4 +63,4 @@ int main(int argc, char *argv[])
             *pArray1 );
 }
 
-/* eof */
+  /* eof */
