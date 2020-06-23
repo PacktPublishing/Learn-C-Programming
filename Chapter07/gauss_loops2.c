@@ -1,6 +1,6 @@
   // gauss_loops2.c
   // Chapter 7
-  // <book title>
+  // Learn C Programming
   //
   // Demonstrate looping with:
   // 1. Counter-controlled looping with while()... C idioms.
@@ -13,6 +13,10 @@
   //
   // Note how it can sometimes be clearer to count down rather 
   // than up. Remember to be certain for your loop ranges!
+  //
+  // Compile with:
+  //
+  //    cc gauss_loops2.c -o gauss_loops2 -Wall -Werror -std=c11
   //
 
 
