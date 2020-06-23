@@ -1,12 +1,14 @@
 // greet.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) use a string more than once
 // 2) manipulate each element of a string with while()...
 //
-// compile with: cc greet.c -o greet -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc greet.c -o greet -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -24,3 +26,5 @@ int main( void )
   }
   printf( "%s\n" , greeting );
 }
+
+  //  eof
