@@ -3,6 +3,10 @@
  * My first C program with comments.
  * by <your name>
  * created <year>/<month>/<day> 
+ *
+ * compile with:
+ *
+ *   cc hello2.c 
  */
 
 #include <stdio.h>
