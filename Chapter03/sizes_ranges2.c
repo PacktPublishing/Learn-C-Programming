@@ -1,10 +1,14 @@
-// sizes_ranges1.c
+// sizes_ranges2.c
 // Chapter 3
-// <book title>
+// Learn C Programming
 //
 // Print out the sizes and ranges for each of C's data types.
 // Save this program and run it on various computer systems you may find
 // yourself working on to confirm and verify the system's limits.
+//
+// Compile with:
+//
+//    cc sizes_ranges2.c -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
