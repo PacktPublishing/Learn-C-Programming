@@ -1,8 +1,8 @@
-// arrayND.h
+// arraysND.h
 // Chapter 12
 // Learn C Programming
 //
-// Header file for arrayND.c
+// Header file for arraysND.c
 // 
 
 
