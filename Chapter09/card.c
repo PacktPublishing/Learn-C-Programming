@@ -1,9 +1,13 @@
 // card.c
 // Chapter 9
-// <book title>
+// Learn C Programming
 //
 // Demonstrate defining and using structured types.
 // 
+// Compile with:
+//
+//    cc card.c -o card -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
