@@ -1,12 +1,14 @@
 // printExtendedASCII.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) builds upon printASCII_version3.c
 // 2) print the ASCII values 32 through 255
 //
-// compile with: cc printExtendedASCII.c -o printExtendedASCII -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc printExtendedASCII.c -o printExtendedASCII -Wall -Werror -std=c11
 //
 
 
@@ -66,4 +68,4 @@ int main( void )
   }  // for
 } // main
 
- /* eof */
+ //  eof
