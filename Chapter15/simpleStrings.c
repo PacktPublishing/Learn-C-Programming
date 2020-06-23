@@ -1,6 +1,6 @@
 // simpleStrings.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) declare and initialize strings in various ways
@@ -11,7 +11,9 @@
 //    b) loop through string with for()...
 //    c) loop through string with while()...
 //
-// compile with: cc simpleStrings.c -o simpleStrings -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc simpleStrings.c -o simpleStrings -Wall -Werror -std=c11
 //
 
 
@@ -87,4 +89,4 @@ int main( void )
 #endif 
 }
 
-  /* eof */
+  //  eof
