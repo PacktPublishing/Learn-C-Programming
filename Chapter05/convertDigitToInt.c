@@ -1,10 +1,16 @@
 // convertDigitToInt.c
 // Chapter 5
-// <book title>
+// Learn C Programming
 // 
 // Program to convert digit characters to their
 // numerical values and add them together (operations on
 // characters).
+//
+// Compile with:
+//
+//    cc convertDigitToInt.c -o convertDigitToInt -Wall -Werror -std=c11
+//
+
 
 
 #include <stdio.h>
