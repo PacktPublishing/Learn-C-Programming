@@ -1,7 +1,6 @@
-//
 // hello4.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Now we have 3 functions.
 // 1st with no parameters.
@@ -9,6 +8,11 @@
 // 3rd with 2 string parameters.
 // Pay attention to how they are called.
 //
+// Compile with:
+//
+//    cc hello4.c -Wall -Werror -std=c11
+//
+
 
 #include <stdio.h>
 
