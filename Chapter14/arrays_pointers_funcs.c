@@ -1,6 +1,6 @@
 // arrays_pointers_funcs.c
 // Chapter 14
-// <book title>
+// Learn C Programming
 //
 // This is a copy of arrays_pointers.c which spefically demonstrate how to 
 // traverse the array using the array as a function parameter using 2 methods:
@@ -9,7 +9,9 @@
 //    c) a function with the array name using pointer arithmetic; and
 //    d) a function with a pointer to 1st element using array notation;
 //
-// compile with: cc arrays_pointers_funcs.c -o arrays_pointers_funcs -Wall -Werror -std=c11
+// compile with:
+//
+//    cc arrays_pointers_funcs.c -o arrays_pointers_funcs -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -95,4 +97,4 @@ void traverse4( int size , int* pArr )
         pArr[i] );
  }
 
-/* eof */
+  /* eof */
