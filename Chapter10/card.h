@@ -1,6 +1,6 @@
 // card.h
 // Chapter 10
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to create header file of 
 // typedefs, custom types, and function prototypes.
