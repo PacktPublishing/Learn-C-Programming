@@ -1,6 +1,6 @@
   // gauss_goto.c
   // Chapter 7
-  // <book title>
+  // Learn C Programming
   //
   // Demonstrate counter-controlled looping with goto
   // 1. Do ...  while() goto loop
@@ -10,6 +10,10 @@
   // For each goto loop function, the corresponding C statement function 
   // is included for comparison.
   // 
+  // Compile with:
+  //
+  //    cc gauss_goto.c -o gauss_goto -Wall -Werror -std=c11
+  //
   
 #include <stdio.h>
 #include <stdbool.h>
