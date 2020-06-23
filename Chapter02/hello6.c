@@ -1,10 +1,14 @@
-//
 // hello6.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Breaking our program into a bunch of small functions.
 //
+// Compile with:
+//
+//    cc hello6.c -Wall -Werror -std=c11
+//
+
 
 #include <stdio.h>
 
