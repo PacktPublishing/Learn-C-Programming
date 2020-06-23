@@ -1,4 +1,4 @@
-  // leapyear2.c
+  // leapYear2.c
   // Chapter 6
   // Learn C Programming
   //
@@ -9,7 +9,7 @@
   //       resumes at the end of the complex statement.
   // Compile with:
   //
-  //    cc leapyear2.c -o leapyear2 -Wall -Werror -std=c11
+  //    cc leapYear2.c -o leapYear2 -Wall -Werror -std=c11
   //
 
 
