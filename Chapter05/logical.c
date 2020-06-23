@@ -1,9 +1,13 @@
   // logical.c
   // Chapter 5
-  // <book title>
+  // Learn C Programming
   //
   // Program to print out logical operagtor
   // "truth" tables for !!, &&, and !
+  //
+  // Compile with:
+  //
+  //    cc logical.c -o logical -Wall -Werror -std=c11
   //
 
   
