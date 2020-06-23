@@ -1,12 +1,14 @@
 // printASCII_version2.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) builds upon printASCII_version1.c
 // 2) print the ASCII values 32 through 127 -- but doesn't handle DEL character
 //
-// compile with: cc printASCII_version1.c -o printASCII_version1 -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc printASCII_version1.c -o printASCII_version1 -Wall -Werror -std=c11
 //
 
 
@@ -35,4 +37,4 @@ int main( void )
   }  // for
 }  // main
 
-  /* eof */
+  //  eof
