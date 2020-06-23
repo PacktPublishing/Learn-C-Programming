@@ -1,15 +1,18 @@
 // primes.c
 // Chapter 7
-// <book title>
+// Learn C Programming
 //
 // Demonstrate "refined goto":
 // 1. break
 // 2. continue
 //
+// Compile with:
+//
+//    cc primes.c -o primes -Wall -Werror -std=c11
+//
 
 #include <stdio.h>
 #include <stdbool.h>
-
 
 bool isPrime( int num );
 
