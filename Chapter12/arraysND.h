@@ -1,8 +1,8 @@
 // arrayND.h
 // Chapter 12
-// <book title>
+// Learn C Programming
 //
-// Header file for arrayND.c.
+// Header file for arrayND.c
 // 
 
 
@@ -18,4 +18,4 @@ void print3DArray(       int z , int y , int x , int array[z][y][x] );
 void prettyPrint3DArray( int z , int y , int x , int array[z][y][x] );
 int  sum3DArray(         int z , int y , int x , int array[z][y][x] );
 
-//  eof
+  //  eof
