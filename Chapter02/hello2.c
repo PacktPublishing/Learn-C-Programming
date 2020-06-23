@@ -1,10 +1,15 @@
-//
 // hello2.c
 // Chapter 2
-// <book title>
+// Learn C Programming
 //
 // Using a simple function that simply prints 2 characters.
 //
+//
+// Compile with:
+//
+//    cc hello2.c -Wall -Werror -std=c11
+//
+
 
 #include <stdio.h>
 
