@@ -1,6 +1,6 @@
 // bstr_hello.c
 // Appendix
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to use bstrlib in "Hello, world!"
 //
