@@ -1,6 +1,6 @@
   // inchesToFeet.c
   // Chapter 4: Using Variables and Assignment
-  // <book title>
+  // Learn C Programming
   //
   // A function which demonstrates assignment via
   // return value.
@@ -8,6 +8,10 @@
   // There are 2 assignments. 
   // 1 to the function expression and the 2nd to 
   // the variable feet via the = operator.
+  //
+  // Compile with:
+  //
+  //    cc inchesToFeet.c -Wall -Werror -std=c11
   //
 
 #include <stdio.h>
