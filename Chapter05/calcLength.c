@@ -1,11 +1,16 @@
 // calcLength.c
 // Chapter 5
-// <book title>
+// Learn C Programming
 // 
 // Program to demonstrate a complex expression
 // two different ways. 
 // First compute the value with a complex expression.
 // Then compute the value again with a sequence of simple expressions.
+//
+// Compile with:
+//
+//    cc calcLength.c -o calcLength -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
