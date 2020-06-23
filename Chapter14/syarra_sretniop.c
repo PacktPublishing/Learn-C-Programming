@@ -1,6 +1,6 @@
 // syarra_sretniop.c  (this is a play on "arrays" and "pointers" reversed.
 // Chapter 14
-// <book title>
+// Learn C Programming
 //
 // This is a copy of arrays_pointers.c which spefically demonstrate how to 
 // traverse the array _in_reverse_ using 3 methods:
@@ -8,7 +8,9 @@
 //    b) using pointer plus offset (pointer doesn't change); and
 //    c) using incremented pointer (pointer changes).
 //
-// compile with: cc syarra_sretniop.c -o syarra_sretniop -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc syarra_sretniop.c -o syarra_sretniop -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -86,4 +88,4 @@ int main(int argc, char *argv[])
   }
 }
 
-/* eof */
+  //  eof
