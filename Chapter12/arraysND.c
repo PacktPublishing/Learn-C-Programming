@@ -1,6 +1,6 @@
 // arraysND.c
 // Chapter 12
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to declare, initialize, and 
 // manipulate 2D and 3D arrays.
@@ -8,6 +8,14 @@
 // Pretty printing functions included which add
 // row and column headings (as array offsets).
 // 
+// Depends upon:
+//
+//    arraysND.h
+//
+// Compile with:
+//
+//    cc arraysND.c -o arraysND -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
