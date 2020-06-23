@@ -2,6 +2,8 @@
 // Chapter 12
 // Learn C Programming
 //
+// ND stands for N-dimensions.
+//
 // Demonstrate how to declare, initialize, and 
 // manipulate 2D and 3D arrays.
 //
