@@ -1,6 +1,6 @@
-// showCar.c
+// showChar.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) create character variables
@@ -10,7 +10,7 @@
 //    b) its decimal value
 //    c) its hexadecimal value
 //
-// compile with: cc showCar.c -o showCar -Wall -Werror -std=c11
+// compile with: cc showChar.c -o showChar -Wall -Werror -std=c11
 //
 
 
@@ -41,4 +41,4 @@ void showChar( int ch )
   printf( "ch = '%c' (%d) [%#x]\n" , ch , ch , ch ); 
 }
 
-  /* eof */
+  //  eof
