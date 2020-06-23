@@ -1,12 +1,14 @@
-// greet.c
+// saferStringOps.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) use a string more than once
 // 2) manipulate each element of a string with while()...
 //
-// compile with: cc greet.c -o greet -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc saferStringOps.c -o saferStringOps -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -60,3 +62,4 @@ void myStringNCompare( char* s1 , char* s2 , int n)
           n, s1 , pResultStr , s2 ); 
 }
 
+  //  eof
