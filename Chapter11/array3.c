@@ -1,12 +1,21 @@
 // array3.c
 // Chapter 11
-// <book title>
+// Learn C Programming
 //
 // Demonstrate using arrays in functions and 
-// as parameters to functions..
+// as parameters to functions.
 //
-// build with:
-//      cc array3.c -o array3 -lm -Wall -Werror -std=c11
+// Depends upon:
+//
+//     array3.h
+//
+// Compile with:
+//
+//     cc array3.c -o array3 -lm -Wall -Werror -std=c11
+//
+//   NOTE -lm switch to include libm.a (math library corresponding to math.h)
+//        may not be required for all compilers/environments.
+//
 
 #include <stdio.h>
 #include <math.h>
