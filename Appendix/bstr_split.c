@@ -1,6 +1,6 @@
 // bstr_split.c
 // Appendix
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to split words into a 
 // bstrList and print them out.
