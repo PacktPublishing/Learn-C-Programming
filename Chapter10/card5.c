@@ -1,11 +1,19 @@
 // card5.c
 // Chapter 10
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to create source file with its
 // own header file of typedefs, custom types, and 
 // function prototypes.
-// 
+//
+// Depends upon:
+//
+//    card.h
+//
+// Compile with:
+//
+//    cc card5.c -o card5 -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
