@@ -130,7 +130,7 @@ void printCard( Card c )
     case two:   printf( "    2 " ); break;
     case three: printf( "    3 " ); break;
     case four:  printf( "    4 " ); break;
-    case five:   printf( "    5 " ); break;
+    case five:  printf( "    5 " ); break;
     case six:   printf( "    6 " ); break;
     case seven: printf( "    7 " ); break;
     case eight: printf( "    8 " ); break;
