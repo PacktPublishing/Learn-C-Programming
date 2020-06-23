@@ -1,11 +1,17 @@
   // convertTempertature_NoNo.c
   // Chapter 5
-  // <book title>
+  // Learn C Programming
   // 
   // Demonstrate what happens with the C compiler
   // when we declare multiple functions of the same
   // name but with different parameter and return
   // types.
+  //
+  // Compile with:
+  //
+  //    cc convertTemperature_NoNo.c -o convertTemperature_NoNo -Wall -Werror -std=c11
+  //
+
 
 #include <stdio.h>
 
