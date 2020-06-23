@@ -1,13 +1,15 @@
 // printASCIIwithControlAndEscape.c
 // Chapter 15
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) builds upon printASCIIwithControl.c
 // 2) print the ASCII values 0 through 127
 //    a) uses a lookup table to print control character escape sequences.
 //
-// compile with: cc printASCIIwithControlAndEscape.c -o printASCIIwithControlAndEscape -Wall -Werror -std=c11
+// compile with: 
+//
+//    cc printASCIIwithControlAndEscape.c -o printASCIIwithControlAndEscape -Wall -Werror -std=c11
 //
 
 
@@ -67,4 +69,4 @@ int main( void )
   printf("%c%c%c", c1 , c1 , c1);  
 }
 
-  /* eof */
+  //  eof
