@@ -1,12 +1,17 @@
   // prefixpostfix.c
   // Chapter 5: Exploring Operators and Expressions
-  // <book title>
+  // Learn C Programming
   //
   // A program to illustrate when the prefix and postfix
   // increment operator changes the value of a variable.
   //
   // Confusion or doubt can be removed by making the
   // incrementation its own statement.
+  //
+  // Compile with:
+  //
+  //    cc prefixpostfix.c -o prefixpostfix -Wall -Werror -std=c11
+  //
 
 #include <stdio.h>
 
