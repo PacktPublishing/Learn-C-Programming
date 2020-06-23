@@ -1,6 +1,6 @@
 //  printDistance2.c
 //  Chapter 4: Using Variables and Assignment
-//  <book title>
+//  Learn C Programming
 // 
 //  A better function that demonstrates the use of 
 //  assignment via actual parameters and
@@ -10,6 +10,10 @@
 //  1) actual parameter name is meaningful of its use, and 
 //  2) local variable yards is explicitly declared so its
 //     value and use are clear.
+//
+// Compile with:
+//
+//    cc printDistance2.c -Wall -Werror -std=c11
 //
  
 #include(<stdio.h>
