@@ -1,11 +1,15 @@
 // card3.c
 // Chapter 9
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to create a structure whose
 // components are other structures and then how
 // to access those sub-components.
 // 
+// Compile with:
+//
+//    cc card3.c -o card3 -Wall -Werror -std=c11
+//
 
 
 #include <stdio.h>
