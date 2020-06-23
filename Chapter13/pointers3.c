@@ -1,6 +1,6 @@
 // pointers3.c
 // Chapter 13
-// <book title>
+// Learn C Programming
 //
 // This program builds on program pointers2.c
 //
@@ -11,7 +11,9 @@
 // 1) removes the pointer variables in main()
 // 2) call function with references w/o pointer variables.
 //
-// compile with: cc pointers3.c -o pointers3 -Wall -Werror -std=c11
+// Compile with:
+//
+//     cc pointers3.c -o pointers3 -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -49,4 +51,6 @@ int main( void )
   showVariable( "width " , &width );
   showVariable( "length" , &length );
 }
+
+  //  eof
 
