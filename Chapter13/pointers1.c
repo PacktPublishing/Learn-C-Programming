@@ -1,6 +1,6 @@
 // pointers1.c
 // Chapter 13
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) declare a pointer to int
@@ -8,7 +8,9 @@
 // 3) assign targets to the pointer 
 // 4) print out info about the targets.
 //
-// compile with: cc pointers1.c -o pointers1 -Wall -Werror -std=c11
+// Compile with:
+//
+//    cc pointers1.c -o pointers1 -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
