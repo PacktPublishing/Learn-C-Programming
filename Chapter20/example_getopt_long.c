@@ -1,12 +1,14 @@
 // example_getopt_long.c
 // Chapter 20
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // * retrieve arguments entered on the command line with the C Standard
 //   Library routine getopts_long().
 //
-// compile with: cc example_getopt_long.c -o example_getopt_long -Wall -Werror -std=c11
+// compile with:
+//
+//     cc example_getopt_long.c -o example_getopt_long -Wall -Werror -std=c11
 //
 // sample inputs;
 //
@@ -59,3 +61,5 @@ int main(int argc, char *argv[]) {
      printf( "\n" );
    }
 }
+
+  // eof
