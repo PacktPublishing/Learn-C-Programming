@@ -1,13 +1,15 @@
 // character_string.c
 // Chapter 19
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) print a string using minimum field width, precision and alignment.
 // 2) print sub-strings with pointer arithmetic.
 // 3) print a character using minimum field width and alignment
 //
-// compile with: cc character_string.c -o character_string -Wall -Werror -std=c11
+// compile with:
+//
+//     cc character_string.c -o character_string -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -35,3 +37,5 @@ int main( void )
   printf( " %%10c     [%10c]    character right-aligned, field=10\n" ,   aChar );
   printf( " %%-10c    [%-10c]    character left-aligned, field=10\n\n" , aChar );
 }
+
+  //  eof
