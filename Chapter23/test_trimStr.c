@@ -1,6 +1,6 @@
 // test_trim.c
 // Chapter 23
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // This program tests the trimStr() and trimStrInPlace()
 // functions.
@@ -10,12 +10,14 @@
 //
 //   trimStrInPlace() (1) copies the trimmed string back to the original 
 //             string using same pointer and (2) returns length of the 
-//             trimmed string. THIS IS PREFERRED FUNCTION TO USE.
+//             trimmed string. 
+//             THIS IS PREFERRED FUNCTION TO USE.
 //
 // Compile with: 
 //
 //   cc test_trim.c -o test_trim -Wall -Werror -std=c11
 //
+
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -130,3 +132,5 @@ void testTrim( int testNum , char* pString )
   len = trimStrInPlace( testString );
   fprintf( stderr , "   trimStr2: \"%s\" [len:%d]\n\n" , testString , (int)len ) ;
 }
+
+  // eof
