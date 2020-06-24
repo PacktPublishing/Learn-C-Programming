@@ -1,6 +1,6 @@
 // sortNames.c
 // Chapter 23
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // This program builds upon createUnsorted.c
 //
