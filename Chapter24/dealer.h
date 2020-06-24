@@ -1,14 +1,10 @@
 // dealer.h
 // Chapter 24
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Header file for dealer.c and common to 
 // other source files: card.c, hand.c, and deck.c
 //
-// To compile:
-//   see main program source file: dealer.c
-//
-
 
 #include <stdbool.h>   // for Boolean
 #include <stdio.h>     // for printf()
