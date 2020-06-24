@@ -1,12 +1,14 @@
 // carddeck_1a.c
 // Chapter 16
-// <book title>
+// Learn C Programming
 //
 // carddeck_1a.c builds upon carddeck_0.c.
 // In this version, we add an array of structures, called Deck
 // and some functions to manipulate the Deck array.
 // 
-// compile with cc carddeck_1a.c -o carddeck_1a -Wall -Werror =std=c11
+// compile with:
+//
+//    cc carddeck_1a.c -o carddeck_1a -Wall -Werror =std=c11
 //
 
 
