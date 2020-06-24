@@ -1,6 +1,6 @@
 // example_gnu_getopts_long.c
 // Chapter 20
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // * retrieve arguments entered on the command line using the C Standard
@@ -9,7 +9,9 @@
 // * use required arguments
 // * use optional arguments with default setting (can be set to something else.
 //
-// compile with: cc example_gnu_getopts_long.c -o showArgs -Wall -Werror -std=c11
+// compile with:
+//
+//   cc example_gnu_getopts_long.c -o showArgs -Wall -Werror -std=c11
 //
 // Sample inputs:
 //
@@ -127,3 +129,5 @@ int main (int argc, char **argv)
 
   exit (0);
 }
+
+  // eof
