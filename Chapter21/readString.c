@@ -1,11 +1,13 @@
 // readString.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to read a string with scanf().
 // Compare to readString2.c
 //
-// compile with: cc readString.c -o readString -Wall -Werror -std=c11
+// compile with: 
+//
+//      cc readString.c -o readString -Wall -Werror -std=c11
 //
 
 
