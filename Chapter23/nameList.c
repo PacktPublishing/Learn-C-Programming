@@ -1,7 +1,6 @@
 // nameList.c
 // Chapter 23
-// Learn C Programming - Fundamentals of C
-//
+// Learn C Programming
 //
 // A family of singly-linked list routines to 
 // perform insertion sort.
