@@ -1,13 +1,15 @@
 // signedInt.c
 // Chapter 19
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) print signed values using minimum field, precision, and alignment
 // 2) print 64-bit values (long long int)
 // 3) explore powers of 2 and powers of 9
 //
-// compile with: cc signedInt.c -o signedInt -Wall -Werror -std=c11
+// compile with:
+//
+//      cc signedInt.c -o signedInt -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -57,3 +59,5 @@ int main( void )
                        k , k , k , k , k , k );
   }
 }
+
+  //  eof
