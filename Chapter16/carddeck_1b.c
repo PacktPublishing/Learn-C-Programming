@@ -28,7 +28,7 @@ enum {
                       // cards, etc.
   kCardsInSuit = 13   // For now, kCardsInDeck / 4. This will change
                       // depending upon the card game.
-}
+};
 
 const bool kWildCard    = true;
 const bool kNotWildCard = false;
