@@ -1,6 +1,6 @@
 // card.c
 // Chapter 24
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // To compile:
 //   see main program source file: dealer.c
@@ -59,4 +59,4 @@ void CardToString( Card* pCard , char pCardStr[20] )  {
   }
 }
 
-
+  // eof
