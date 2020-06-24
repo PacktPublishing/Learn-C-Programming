@@ -1,12 +1,14 @@
 // readDate.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to use field width specifiers
 // to read data elements with the non-assighnment operater
 // to parse characters between date elements.
 //
-// compile with: cc readDate.c -o readDate -Wall -Werror -std=c11
+// compile with: 
+//
+//     cc readDate.c -o readDate -Wall -Werror -std=c11
 //
 
 
