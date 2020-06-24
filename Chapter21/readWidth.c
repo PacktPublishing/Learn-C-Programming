@@ -1,12 +1,14 @@
 // readWidth.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to use the field with specifier
 // to read data elements (1st approximation). 
 // See also readDAte.c for a better solution.
 //
-// compile with: cc readWidth.c -o readWidth -Wall -Werror -std=c11
+// compile with:
+//
+//     cc readWidth.c -o readWidth -Wall -Werror -std=c11
 //
 
 
