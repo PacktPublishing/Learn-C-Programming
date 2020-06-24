@@ -1,6 +1,6 @@
 // open_close_string.c
 // Chapter 22
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) open a file for reading,
@@ -10,7 +10,9 @@
 // 5) close output file.
 // 6) use of errno and strerror() function.
 //
-// compile with: cc open_close_string.c -o open_close_string -Wall -Werror -std=c11
+// compile with: 
+//
+//     cc open_close_string.c -o open_close_string -Wall -Werror -std=c11
 //
 
 
