@@ -1,6 +1,6 @@
 // trig.c
 // Chapter 25
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate various types of scope:
 // 1. local scope
@@ -61,3 +61,6 @@ static double cube( double d ) {
   double result = d * d * d;
   return result;
 }
+
+  // eof
+
