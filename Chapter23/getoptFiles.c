@@ -1,6 +1,6 @@
 // getoptFiles.c
 // Chapter 23
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to use getopt() to 
 // 1) open an input file or use stdin
@@ -10,7 +10,9 @@
 // as the starting point for any number of different kinds
 // of file-processing programs.
 //
-// compile with: cc getoptFiles.c -o getoptFiles -Wall -Werror -std=c11
+// compile with:
+//
+//     cc getoptFiles.c -o getoptFiles -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -76,3 +78,5 @@ int main(int argc, char *argv[]) {
   fflush( outputFile );
   fclose( outputFile );
 }
+
+  //  eof
