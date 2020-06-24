@@ -1,6 +1,6 @@
 // hand.h
 // Chapter 24
-// Learn C Programm
+// Learn C Programming
 //
 // Header file for hand.c
 //
