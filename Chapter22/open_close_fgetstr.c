@@ -1,12 +1,14 @@
 // open_close_fgetstr.c
 // Chapter 22
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Builds on open_close_string.c
 // Demonstrate how to get filenames for input and output 
 // via prompt.
 //
-// compile with: cc open_close_fgetstr.c -o open_close_fgetstr -Wall -Werror -std=c11
+// compile with:
+//
+//     cc open_close_fgetstr.c -o open_close_fgetstr -Wall -Werror -std=c11
 //
 
 
