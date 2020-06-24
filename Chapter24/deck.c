@@ -16,8 +16,8 @@
 
 
 void InitializeDeck( Deck* pDeck )  {
-  Face f[13] = { two   , three , four , five , six   , seven ,
-                   eight , nine  , ten  , jack , queen , king  , ace };
+  Face f[kCardsInSuit] = { two   , three , four , five , six   , seven ,
+                           eight , nine  , ten  , jack , queen , king  , ace };
   Card* pC;  
   for( int i = 0 ; i < kCardsInSuit ; i++ )  {
     pC = &(pDeck->ordered[ i + (0*kCardsInSuit) ]);
