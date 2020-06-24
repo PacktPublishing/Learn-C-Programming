@@ -1,6 +1,6 @@
 // carddeck0.c
 // Chapter 16
-// <book title>
+// Learn C Programming
 //
 // Starting point (from Chapter 10, card4.c) for complex structures.
 // Modify it to reflect data structures and operations using arrays and 
@@ -9,7 +9,9 @@
 // In carddeck_0.c, remove unneeded functions (we'll add them back later)
 // and demonstrate an array of structures.
 // 
-// compile with cc carddeck_0.c -o carddeck_0 -Wall -Werror =std=c11
+// compile with:
+//
+//    cc carddeck_0.c -o carddeck_0 -Wall -Werror =std=c11
 //
 
 
