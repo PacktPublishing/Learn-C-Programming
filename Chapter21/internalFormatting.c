@@ -1,13 +1,15 @@
 // internalFormatting.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to perform internal data conversion
 // using sscanf() and sprintf(). 
 // This program is very similar to read2NumbersUsingResult.c whichg
 // uses scanf().
 //
-// compile with: cc internalFormatting.c -o internalFormatting -Wall -Werror -std=c11
+// compile with:
+//
+//     cc internalFormatting.c -o internalFormatting -Wall -Werror -std=c11
 //
 
 
