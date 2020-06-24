@@ -1,6 +1,6 @@
 // unsignedInt.c
 // Chapter 19
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) print unsigned values in octal, decimal, and hexadecimal
@@ -8,7 +8,9 @@
 // 3) explore powers of 2 and powers of 9
 // 4) print out pointer values.
 //
-// compile with: cc unsignedInt.c -o unsignedInt -Wall -Werror -std=c11
+// compile with:
+//
+//     cc unsignedInt.c -o unsignedInt -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -70,3 +72,7 @@ int main( void )
   printf( " %%p       [%p]   pointer\n" ,     &smallInt );
   printf( " %%#lx     [%#lx]   using hex\n\n" ,  (unsigned long)&smallInt );
 }
+
+  //  eof
+
+
