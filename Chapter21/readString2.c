@@ -1,12 +1,14 @@
 // readString2.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to read and write a string with
 // gets() and puts().
 // Compare this program to readString.c
 //
-// compile with: cc readString2.c -o readString2 -Wall -Werror -std=c11
+// compile with:
+//
+//     cc readString2.c -o readString2 -Wall -Werror -std=c11
 //
 
 
@@ -23,3 +25,5 @@ int main( void )
   puts( "You entered: " );
   puts( stringBuffer );
 }
+
+  // eof
