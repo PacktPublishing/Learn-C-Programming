@@ -1,3 +1,10 @@
+// nameList.h
+// Chapter 23
+// Learn C Programming
+//
+// Header file for nameList.c
+//
+
 #ifndef _SORT_NAMES_H_
 #define _SORT_NAMES_H_
 
