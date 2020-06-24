@@ -1,11 +1,8 @@
 // card.h
 // Chapter 24
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Header file for card.c
-//
-// To compile:
-//   see main program source file: dealer.c
 //
 
 #ifndef _CARD_H_
