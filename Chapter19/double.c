@@ -1,13 +1,15 @@
 // double.c
 // Chapter 19
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) print floating point in natural format nnnn.nnnn
 // 2) print floating point in scientific notation
 // 3) demonstrate G type conversion for optimal format of floating point
 //
-// compile with: cc double.c -o double -Wall -Werror -std=c11
+// compile with: 
+//
+//     cc double.c -o double -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -47,3 +49,5 @@ int main( void )
      printf( "          [%18.12g]  [%18.3g]  [%18.3G]  [%18g]\n" ,
                         k , k , k , k );
 }
+
+  //  eof
