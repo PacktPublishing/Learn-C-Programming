@@ -1,11 +1,13 @@
 // read2Numbers.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to read an integer and a double
 // using scanf() and %d and %lf format specifiers.
 //
-// compile with: cc read2Numbers.c -o read2Numbers -Wall -Werror -std=c11
+// compile with:
+//
+//     cc read2Numbers.c -o read2Numbers -Wall -Werror -std=c11
 //
 
 
@@ -41,3 +43,5 @@ int main( void )
   printf( "1. integer:  %d\n" , anInteger );
   printf( "2.  double:  %lf\n\n" , aDouble );    
 }
+
+  // eof
