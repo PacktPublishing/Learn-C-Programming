@@ -1,11 +1,13 @@
 // showArgs.c
 // Chapter 20
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // * retrieve arguments entered on the command line 
 //
-// compile with: cc showArgs.c -o showArgs -Wall -Werror -std=c11
+// compile with:
+//
+//     cc showArgs.c -o showArgs -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
@@ -30,3 +32,5 @@ int main(int argc, char *argv[])
   }
   printf( "\n" ); 
 }
+
+  //  eof
