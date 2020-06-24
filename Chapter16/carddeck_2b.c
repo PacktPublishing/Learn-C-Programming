@@ -1,12 +1,14 @@
 // carddeck_2b.c
 // Chapter 16
-// <book title>
+// Learn C Programming
 //
-// carddeck_2a.c builds upon carddeck_1a.c.
+// carddeck_2b.c builds upon carddeck_2a.c.
 // In this version, we add the hand structure using
 // individual pointer variables to Cards.
 // 
-// compile with cc carddeck_2b.c -o carddeck_2b -Wall -Werror -std-c11
+// compile with
+//
+//     cc carddeck_2b.c -o carddeck_2b -Wall -Werror -std-c11
 //
 
 
@@ -20,15 +22,17 @@
   // of literals; when you need to change these, they are applied
   // everywhere.
   //
-const int  kCardsInDeck = 52;  // For now, 52 cards in a deck. This will change
-                               // depending upon the card game and the # of wild
-                               // cards, etc.
-const int  kCardsInSuit = 13;  // For now, kCardsInDeck / 4. This will change
-                               // depending upon the card game.
-const int  kCardsInHand = 5;   // For now, 5 cards dealt for each hange. This will
-                               // change depending upon the card game.
-const int  kNumHands    = 4;   // For now, for hands per "table". This will change
-                               // depending on the game we want to implement.
+enum {
+  kCardsInDeck = 52,  // For now, 52 cards in a deck. This will change
+                      // depending upon the card game and the # of wild
+                      // cards, etc.
+  kCardsInSuit = 13,  // For now, kCardsInDeck / 4. This will change
+                      // depending upon the card game.
+  kCardsInHand =  5,  // For now, 5 cards dealt for each hange. This will
+                      // change depending upon the card game.
+  kNumHands    =  4   // For now, for hands per "table". This will change
+                      // depending on the game we want to implement.
+};
 
 const bool kWildCard    = true;
 const bool kNotWildCard = false;
