@@ -1,11 +1,8 @@
 // deck.h
 // Chapter 24
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
-// Header file for deck.C
-//
-// To compile:
-//   see main program source file: dealer.c
+// Header file for deck.c
 //
 
 
