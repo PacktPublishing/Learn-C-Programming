@@ -6,7 +6,9 @@
 // "cooked mode" of console i/o.
 // Final output is flushed with \n or when program ends.
 //
-// compile with: cc flush.c -o flush -Wall -Werror -std=c11
+// compile with:
+//
+//     cc flush.c -o flush -Wall -Werror -std=c11
 //
 
 #include <stdio.h>    // For printf()
