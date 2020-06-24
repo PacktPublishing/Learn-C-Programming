@@ -1,13 +1,10 @@
 // usingAtoi.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
-// Demonstrate how to 
-// 1) blah
-// 2) blah
-// 3) blah
+// compile with: 
 //
-// compile with: cc usingAtoi.c -o usingAtoi -Wall -Werror -std=c11
+//     cc usingAtoi.c -o usingAtoi -Wall -Werror -std=c11
 //
 
 
