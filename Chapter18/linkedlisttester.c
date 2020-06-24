@@ -1,14 +1,17 @@
 // linkedlisttester.c
 // Chapter 18
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to 
 // 1) define structures for a linked list
 // 2) define operations on that linked list
 // 3) fully exercise (test) the link list implementation
 //
-// compile with: cc linkedlisttester.c -o linkedlisttester -Wall -Werror -std=c11
+// compile with:
+// 
+//     cc linkedlisttester.c -o linkedlisttester -Wall -Werror -std=c11
 //
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
