@@ -1,15 +1,16 @@
 // readScanSet.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to use a scan set to limit
 // character inputs.
 //
-// compile with: cc readScanSet.c -o readScanSet -Wall -Werror -std=c11
+// compile with:
+//
+//     cc readScanSet.c -o readScanSet -Wall -Werror -std=c11
 //
 
 #include <stdio.h>
-
 
 // Test inputs:
 //
@@ -20,9 +21,7 @@
 // a e i o u y<return>
 //
 
-
 const int bufferSize = 80;
-
 
 int main( void )
 {
