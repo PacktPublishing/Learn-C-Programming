@@ -1,11 +1,8 @@
 // hand.h
 // Chapter 24
-// Learn C Programming - Fundamentals of C
+// Learn C Programm
 //
 // Header file for hand.c
-//
-// To compile:
-//   see main program source file: dealer.c
 //
 
 
