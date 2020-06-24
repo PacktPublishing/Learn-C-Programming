@@ -1,6 +1,6 @@
 // circle.c
 // Chapter 25
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate various types of scope:
 // 1. local scope
@@ -61,3 +61,6 @@ void circle( double radius )  {
   printf( "           area = %10.4f square inches\n" , circle_area( r ) );
   printf( "         volume = %10.4f cubic inches\n\n" , circle_volume( r ) );
 }
+
+  // eof
+
