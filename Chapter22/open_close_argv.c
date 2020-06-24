@@ -1,12 +1,14 @@
 // open_close_argv.c
 // Chapter 22
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Builds on open_close_fgetstr.c
 // Demonstrate how to use argc and argv to get
 // input and output filenames from command line.
 //
-// compile with: cc open_close_argv.c -o open_close_argv -Wall -Werror -std=c11
+// compile with: 
+//
+//     cc open_close_argv.c -o open_close_argv -Wall -Werror -std=c11
 //
 
 
