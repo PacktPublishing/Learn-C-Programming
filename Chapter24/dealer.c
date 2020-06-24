@@ -1,6 +1,6 @@
 // dealer.c
 // Chapter 24
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate 
 // 1) how to group data structures and functions that 
@@ -50,3 +50,6 @@ int main( void )  {
   
   return 0;  
 }
+
+  // eof
+
