@@ -1,11 +1,13 @@
 // nameSorter.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrates a simple "insertion sort" using an array.
 // Input and output is primarily done with fgets() and fputs().
 //
-// compile with: cc nameSorter.c -o nameSorter -Wall -Werror -std=c11
+// compile with:
+//
+//     cc nameSorter.c -o nameSorter -Wall -Werror -std=c11
 //
 
 
