@@ -1,14 +1,14 @@
 // read2NumbersUsingResult.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to use the result of scanf()
 // to determine how many values were correctly converted.
 //
-// compile with: cc read2NumbersUsingResult.c -o read2NumbersUsingResult \
-//                 -Wall -Werror -std=c11
+// compile with:
 //
-
+// cc read2NumbersUsingResult.c -o read2NumbersUsingResult -Wall -Werror -std=c11
+//
 
 #include <stdio.h>
 
@@ -37,3 +37,5 @@ int main( void )  {
   if( numScanned > 1 ) printf( "2.  double:  %lf\n" , aDouble );    
   printf( "\n" );
 }
+
+  // eof
