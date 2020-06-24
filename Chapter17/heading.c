@@ -1,13 +1,16 @@
 // heading.c
 // Chapter 18
-// <book title>
+// Learn C Programming
 //
 // Demonstrate how to use a static variable in 
 // a function to print the next page number each time the
 // function is called.
 //
-// compile with: cc heading.c -o heading -Wall -Werror -std=c11
+// compile with: 
 //
+//     cc heading.c -o heading -Wall -Werror -std=c11
+//
+
 #include <stdio.h>
 
 void printHeading( const char* aHeading );
@@ -27,3 +30,5 @@ void printHeading( const char* aHeading )  {
   printf( "%s \t Page %d\n" , aHeading , pageNo);
   pageNo++;
 }
+
+  //  eof
