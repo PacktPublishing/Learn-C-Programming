@@ -1,11 +1,13 @@
 // readChar.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate how to read a character between 2 integers
 // without and with a space in the format specifier.
 //
-// compile with: cc readChar.c -o readChar -Wall -Werror -std=c11
+// compile with:
+//
+//     cc readChar.c -o readChar -Wall -Werror -std=c11
 //
 
 
@@ -36,3 +38,5 @@ int main( void )
   printf( "Values scanned = %d. Character selected: [%c]\n\n" ,
                    numScanned , aChar );
 }
+
+  //  eof
