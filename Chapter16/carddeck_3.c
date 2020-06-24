@@ -1,12 +1,14 @@
 // carddeck_3.c
 // Chapter 16
-// <book title>
+// Learn C Programming
 //
 // carddeck_3.c builds upon carddeck_2b.c.
 // In this version, we add an structure with an array of structures, called Deck
 // and some functions to manipulate the Deck array.
 // 
-// compile with cc carddeck_3.c -o carddeck_3 -Wall -Werror =std=c11
+// compile with 
+//
+//     cc carddeck_3.c -o carddeck_3 -Wall -Werror =std=c11
 //
 
 
@@ -30,9 +32,9 @@ enum {
                       // cards, etc.
   kCardsInSuit = 13,  // For now, kCardsInDeck / 4. This will change
                       // depending upon the card game.
-  kCardsInHand = 5,   // For now, 5 cards dealt for each hange. This will
+  kCardsInHand =  5,  // For now, 5 cards dealt for each hange. This will
                       // change depending upon the card game.
-  kNumHands    = 4    // For now, for hands per "table". This will change
+  kNumHands    =  4   // For now, for hands per "table". This will change
                       // depending on the game we want to implement.
 };
 
