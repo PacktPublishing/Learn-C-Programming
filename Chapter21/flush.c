@@ -1,6 +1,6 @@
 // flush.c
 // Chapter 21
-// Learn C Programming - Fundamentals of C
+// Learn C Programming
 //
 // Demonstrate input buffering works in 
 // "cooked mode" of console i/o.
