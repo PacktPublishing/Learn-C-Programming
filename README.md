@@ -43,7 +43,7 @@ This book is written for two very diverse audiences.
 If you're an absolute beginner who only has basic familiarity with operating a computer, this book will help you learn the most fundamental concepts and practices you need to know to become a successful C programmer.
 If you're an experienced programmer, you'll find the full range of C syntax as well as common C idioms. You can skim through the explanations and focus primarily on the source code provided.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-2).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-25).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
