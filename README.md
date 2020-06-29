@@ -52,9 +52,9 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781789349917_ColorImages.pdf).
 
 ### Related products
-*  [[Packt]](https://www.packtpub.com/programming/c-programming-cookbook?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1838641106)
+*  Practical C Programming [[Packt]](https://www.packtpub.com/programming/c-programming-cookbook?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1838641106)
 
-*  [[Packt]](https://www.packtpub.com/programming/extreme-c?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789343623)
+*  Extreme C [[Packt]](https://www.packtpub.com/programming/extreme-c?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789343623)
 
 ## Get to Know the Author
 **Jeff Szuhay**
