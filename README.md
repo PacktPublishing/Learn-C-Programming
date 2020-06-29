@@ -1,6 +1,6 @@
 # Learn C Programming
 
-<a href="https://www.packtpub.com/programming/learn-c-programming-fundamentals-of-c?utm_source=github&utm_medium=repository&utm_campaign=9781789349917"><img src="https://www.packtpub.com/media/catalog/product/cache/bf3310292d6e1b4ca15aeea773aca35e/9/7/9781789349917-original.jpeg" alt="Learn C Programming" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/programming/learn-c-programming-fundamentals-of-c?utm_source=github&utm_medium=repository&utm_campaign=9781789349917"><img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/2925/2020/06/cover.png" alt="Learn C Programming" height="256px" align="right"></a>
 
 This is the code repository for [Learn C Programming](https://www.packtpub.com/programming/learn-c-programming-fundamentals-of-c?utm_source=github&utm_medium=repository&utm_campaign=9781789349917), published by Packt.
 
