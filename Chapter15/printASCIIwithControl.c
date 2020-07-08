@@ -40,13 +40,13 @@ int main( void )
     c3 = i+64;
     c4 = i+96;
  
-    printf( "| %s ^%c %3d %#4x " ,
+    printf( "| %s ^%c %3d %#4x " ,            // 1st column
               ctrl[i] , c1+64 , c1 , c1 );
-    printf( "|  %c %3d %#x " ,
+    printf( "|  %c %3d %#x " ,                // 2nd column
               c2 , c2 , c2 );
-    printf( "|  %c %3d %#x |" ,
+    printf( "|  %c %3d %#x " ,                // 3rd column
               c3 , c3 , c3 );
-    if( c4 != 127 ) {
+    if( c4 != 127 ) {                         // 4th column
       printf( "|  %c %3d %#x |\n" ,
               c4 , c4 , c4  );
      } else {
