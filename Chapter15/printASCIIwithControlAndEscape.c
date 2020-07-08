@@ -51,14 +51,14 @@ int main( void )
       fmtStr[2] = format[i];
     }
 
-    printf( "| %s %s ^%c %3d %#4x " ,
+    printf( "| %s %s ^%c %3d %#4x " ,              // 1st column
              ctrl[i] , fmtStr , c3 , c1 , c1 );
-    printf( "|  %c %3d %#x " ,
+    printf( "|  %c %3d %#x " ,                     // 2nd column
               c2 , c2 , c2 );
-    printf( "|  %c %3d %#x |" ,
+    printf( "|  %c %3d %#x " ,                     // 3rd column
               c3 , c3 , c3 );
-    if( c4 != 127 ) {
-      printf( "|  %c %3d %#x \n" ,
+    if( c4 != 127 ) {                              // 4th column
+      printf( "|  %c %3d %#x |\n" ,
               c4 , c4 , c4  );
      } else {
         printf( "|%s %3d %#x |\n" ,
