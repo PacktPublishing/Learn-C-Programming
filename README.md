@@ -38,6 +38,10 @@ int main()
 }
 ```
 
+## Errata
+
+* Section “Memory Leaks” on page 410: The sentence "First, the free() function is called on pThing1, which is the pointer element of pThing2. Then, and only then, can we release the memory of pThing1." must read as "First, the free() function is called on pThing1->pThing2, which is the pointer element to pThing2. Then, and only then, can we release the memory of pThing1."
+
 **Following is what you need for this book:**
 This book is written for two very diverse audiences.
 If you're an absolute beginner who only has basic familiarity with operating a computer, this book will help you learn the most fundamental concepts and practices you need to know to become a successful C programmer.
