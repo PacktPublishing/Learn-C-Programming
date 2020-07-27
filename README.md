@@ -41,6 +41,10 @@ int main()
 ## Errata
 
 * Section “Memory Leaks” on page 410: The sentence "First, the free() function is called on pThing1, which is the pointer element of pThing2. Then, and only then, can we release the memory of pThing1." must read as "First, the free() function is called on pThing1->pThing2, which is the pointer element to pThing2. Then, and only then, can we release the memory of pThing1."
+* Page no. 20: The sentence "The way in which one v sends text to the console is likely different from any other OS, even if they both run on the same hardware." must read as "The way in which one sends text to the console is likely different from any other OS, even if they both run on the same hardware."
+* Page no. 42: It is mentioned that "Four keywords we have already encountered are include, int, main, and return." but main() is not a keyword; it is a token.
+* Page no. 51: The sentence "Your program can never call main itself; main can only be called by the system." must read as "Your program can call main() again itself but this is a very unwise practice."
+* Page no. 55: The sentence "A function can be values given as input to the function." must read as "A function can have values given as input to the function."
 
 **Following is what you need for this book:**
 This book is written for two very diverse audiences.
