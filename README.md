@@ -45,7 +45,72 @@ int main()
 * Page no. 42: It is mentioned that "Four keywords we have already encountered are include, int, main, and return." but main() is not a keyword; it is a token.
 * Page no. 51: The sentence "Your program can never call main itself; main can only be called by the system." must read as "Your program can call main() again itself but this is a very unwise practice."
 * Page no. 55: The sentence "A function can be values given as input to the function." must read as "A function can have values given as input to the function."
+* Page no. 121: Page 121 example code
+It is:
+```
+      printf( "  Final: %\n" , aValue );
+...
+     printf( "  Final: %\n" , aValue );
+```
+Should be:
+```
+printf( "  Final: %d\n\n" , aValue );
+...
+printf( "  Final: %d\n\n" , aValue );
+```
+* Page no. 121: Page 121 prefixpostfix.c running result
+It is:
+```
+++aValue (alone) == 7
+aValue++ (alone) == 8
+```
 
+Should be:
+```
+++aValue (alone) == 6
+aValue++ (alone) == 6
+```
+* Page no. 121: The sample program is given as
+ ```
+    // A more predictable result: increment in isolation.
+  ++aValue;
+  printf( "++aValue (alone) == %d\n" , aValue );
+  aValue++;
+  printf( "aValue++ (alone) == %d\n" , aValue );
+ ```
+but this should be
+```
+    // A more predictable result: increment in isolation.
+  aValue = 5;
+  ++aValue;
+  printf( "++aValue (alone) == %d\n" , aValue );
+  aValue = 5;
+  aValue++;
+  printf( "aValue++ (alone) == %d\n" , aValue );
+  ```
+  * Chapter 12, page 250:
+  ```
+  const int size1D = 5;
+  const int size2D = 4;
+  const int size3D = 3;
+  const int size4D = 7;
+  ```
+  The above four statements could and should be written as enums, as follows:
+ ```
+  enum {
+    size1D = 5,
+    size2D = 4,
+    size3D = 3,
+    size4D = 7
+  };
+  ```
+It could also have been declared
+ ```
+  #define size1D 5
+  #define size2D 4
+  #define size3D 3
+  #define size4D 7
+```
 **Following is what you need for this book:**
 This book is written for two very diverse audiences.
 If you're an absolute beginner who only has basic familiarity with operating a computer, this book will help you learn the most fundamental concepts and practices you need to know to become a successful C programmer.
