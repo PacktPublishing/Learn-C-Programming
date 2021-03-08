@@ -111,6 +111,21 @@ It could also have been declared
   #define size3D 3
   #define size4D 7
 ```
+* Page 192: The code block after "Alternatively, we could write a function that adds two cards, as follows:" is:
+```
+int sumCards( struct Card c1 , struct Card c2 ) {
+  int faceValue = c1.faceFalue + c2.faceValue;
+  return faceValue;
+}
+```
+It should be:
+```
+int sumCards( struct Card c1 , struct Card c2 ) {
+  int faceValue = c1.faceValue + c2.faceValue;
+  return faceValue;
+}
+```
+
 **Following is what you need for this book:**
 This book is written for two very diverse audiences.
 If you're an absolute beginner who only has basic familiarity with operating a computer, this book will help you learn the most fundamental concepts and practices you need to know to become a successful C programmer.
