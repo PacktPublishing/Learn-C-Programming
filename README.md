@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781789349917)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # Learn C Programming
 
 <a href="https://www.packtpub.com/programming/learn-c-programming-fundamentals-of-c?utm_source=github&utm_medium=repository&utm_campaign=9781789349917"><img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/2925/2020/06/cover.png" alt="Learn C Programming" height="256px" align="right"></a>
