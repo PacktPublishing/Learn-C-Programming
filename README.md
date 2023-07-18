@@ -130,6 +130,7 @@ int sumCards( struct Card c1 , struct Card c2 ) {
 ```
 
 * Page 56: Chapter 2 Code Block: hello6.c, line 27
+* Page 63 and 59
   
 It is:
 ```
