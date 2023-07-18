@@ -129,6 +129,17 @@ int sumCards( struct Card c1 , struct Card c2 ) {
 }
 ```
 
+* Page 56: Chapter 2 Code Block: hello6.c, line 27
+  
+It is:
+```
+printf( "%s" );
+```
+It Should be:
+```
+printf( "%s", aName );
+```
+
 **Following is what you need for this book:**
 This book is written for two very diverse audiences.
 If you're an absolute beginner who only has basic familiarity with operating a computer, this book will help you learn the most fundamental concepts and practices you need to know to become a successful C programmer.
